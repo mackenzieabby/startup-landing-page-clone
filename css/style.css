@@ -1,3 +1,60 @@
+/* Main */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 body {
-	background-color: LightGrey;
+	background-color: grey;
+	font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #838994;
+    letter-spacing: 0.03em;
+    -webkit-font-smoothing: antialiased;
+
+}
+/* Top Navigation */
+.topNavigation {
+	background-color: white;
+}
+.topNavigation > .container {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+	padding: 0px 85px
+	
+}
+.logo {
+	width: 26px;
+	
+	margin-top: 15px;
+}
+.links {
+	float: right;
+}
+.links > li {
+	display: inline-block;
+	font-size: 17px;
+}
+.topNavigation .links > .active {
+	color: #4c5058;
+    font-weight: 500;
+    -webkit-transition: color 0.2s ease;
+}
+.links li {
+	padding-right: 20px;
+	-webkit-transition: color 0.2s ease;
+}
+ul.links {
+    padding-top: 10px;
+
+}
+.topNavigation .links > .active:hover {
+	color: black;
+	cursor: pointer;
+}
+.links li:hover {
+	color: #333333;
+	cursor: pointer;
 }
