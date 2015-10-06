@@ -96,3 +96,33 @@ ul.links {
 .bigButton:hover {
 	background-color: #D03F11;
 }
+.casesContainer {
+	margin: 0 auto;
+	width: 970px;
+	padding: 0px 85px;
+	text-align: center;
+}
+.casesContainer h2 {
+	color: black;
+	font-weight: 300;
+	padding-top: 100px;
+	font-size: 40px;
+}
+ .devices {
+	width: 220px;
+	height: 150px;
+	display: inline-block;
+	overflow: hidden;
+}
+.devicesImg {
+	margin: 0 auto;
+	width: 970px;
+	padding: 0px 85px;
+	text-align: center;
+	color: black;
+}
+.devicesImg > .devicesText {
+	display: inline-block;
+	font-weight: 400;
+	padding-left: 10px;
+}
